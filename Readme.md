@@ -4,7 +4,7 @@ This project aims to predict student performance levels (`High`, `Medium`, or `L
 
 ## Project Overview
 
-The model is trained using a dataset of students’ math, reading, and writing scores along with categorical attributes like gender, race/ethnicity, parental education level, lunch type, and test preparation course. The target variable is a categorized performance level based on the average of the scores.
+The model is trained using a dataset of students’ math, reading, and writing scores along with categorical attributes like test preparation course. The target variable is a categorized performance level based on the average of the scores.
 
 ### Dataset
 
@@ -47,8 +47,3 @@ The model is trained using a dataset of students’ math, reading, and writing s
 - seaborn
 - matplotlib
 - joblib
-
-Install them using:
-
-```bash
-pip install pandas numpy scikit-learn seaborn matplotlib joblib
